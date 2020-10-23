@@ -1,7 +1,7 @@
 <div align="center">
     <h1>Daedalus</h1>
 </div>
- 
+
 <p align="center">
     <a href="https://zenodo.org/badge/latestdoi/232834194">
         <img alt="DOI" src="https://zenodo.org/badge/232834194.svg">
@@ -49,14 +49,14 @@ conda activate daedalus
 * Clone daedalus source code:
 
 ```bash
-git clone https://github.com/BenjaminIsaac0111/daedalus.git 
+git clone https://github.com/alan-turing-institute/daedalus.git
 ```
 
 * Install daedalus and its dependencies:
 
 ```
 cd /path/to/my/daedalus
-pip install -v -e .
+pip install --use-feature=2020-resolver -v -e .
 ```
 
 # Tutorials
